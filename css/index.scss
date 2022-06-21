@@ -1,0 +1,48 @@
+$primary_color:  #2B3442;
+$bgcolor: #252D3A;
+$blue:#6E97FE;
+
+
+.header
+{
+    margin-top: 90px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.header__line
+{
+    background: $primary_color;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1px;
+    height: 5px;
+}
+.header__line::before
+{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: $blue;
+    width: 50px;
+    height: 5px;
+    display: block;
+    border-radius: 1px;
+}
+.vertical-container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: $bgcolor; 
+    align-items: center;
+}
+
+
+
+.bg
+{
+    background-color: $bgcolor;
+}
